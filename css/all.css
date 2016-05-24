@@ -1,0 +1,140 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+* {max-height: 1000000px;}
+body{
+	margin:0;
+	font:12px/15px Arial, Helvetica, sans-serif;
+	color:#000;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust: none;
+}
+img{
+	border-style:none;
+	vertical-align:top;
+}
+a{
+	color:#000;
+	text-decoration:underline;
+}
+a:hover{text-decoration:none;}
+a:active {background-color: transparent;}
+input, textarea, select{
+	font:100% Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	color:#1e1b1b;
+}
+header, footer, article, section, hgroup, nav, figure, aside { display: block; }
+figure {
+	margin:0;
+	padding:0;
+}
+form, fieldset{
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+input[type=submit],
+input[type=text],
+input[type=password],
+input[type=file],
+textarea{-webkit-appearance:none;}
+textarea,
+input[type=submit],
+input[type=text]{-webkit-border-radius:0;}
+input[type=image],
+button{
+	padding:0;
+	border:none;
+}
+input[type="submit"]::-moz-focus-inner{border:0}
+input[type="submit"]{cursor:pointer;}
+
+#header{
+	background:#fff;
+}
+.header-holder{
+	background: #8ac6d0;
+	margin:0 auto;
+	width:700;
+	padding:27px 0 29px;
+}
+.logo{
+	margin: 0 0 0 24px;
+}
+#main{
+	background:#fff;
+    overflow: hidden;
+
+}
+.main-holder{
+	margin: 0 auto;
+	width: 700px;
+	position: relative;
+	z-index: 0;
+}
+.sidebar{
+	padding: 40px 0 0 23px;
+	float: left;
+	width: 173px;
+}
+.sidebar:before{
+	content: " ";
+	height: 100%;
+	width: 173px;
+	background:#c9e4ca;
+	position: absolute;
+	z-index:-1;
+	top:0;
+	left:0;
+}
+.sidebar li{
+	list-style-type:none;
+	margin-bottom: 15px;
+}
+.sidebar li:first-child{
+	text-decoration:underline;
+}
+.sidebar a{
+	text-decoration:none;
+}
+.content{
+	overflow: hidden;
+	padding: 40px 45px 44px 50px;
+	width: 527px;
+}
+.content h1{
+	color:#444b6e;
+	margin-bottom: 30px;
+}
+.content p{
+	margin-bottom: 30px;
+}
+#footer{
+	background:#fff;
+	clear: both;
+}
+.footer-holder{
+	background: url(../images/footbg.png) repeat-x;
+	margin: 0 auto;
+	width: 700px;
+	padding: 39px 40px 45px 50px;
+}
+.footer-holder ul {
+	text-align:center;
+}
+.footer-holder li{
+	display:inline-block;
+	list-style-type:none;
+}
+.footer-holder li:first-child{
+	text-decoration:underline;
+}
+.footer-holder a{
+	margin-left: 18px;
+	text-decoration:none;
+}
