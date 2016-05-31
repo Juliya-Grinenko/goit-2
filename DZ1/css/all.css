@@ -1,5 +1,5 @@
 .body {
-	background: #ccc;
+	background: #ada6a6;
 }
 .wrapper{
 	width: 900px;
@@ -12,11 +12,10 @@ h1 {
 img {
 	width: 300px;
 	margin: 0 auto;
-	displayblock: center;
+	display: block;
 	
 }
 .box {
     border-bottom: 1px solid #000;
 	padding: 30px;
-	width: 900px 
-}
+	
