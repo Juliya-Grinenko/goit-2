@@ -8,18 +8,18 @@ body{
 }
 
 .wrapper{
-	width: 900px;
+	width: 970px;
 	margin: 0 auto;
+	padding: 50px 45px 60px 45px;
 	background: #fff;
 }
-.header{
-	padding-top: 50px;
-	margin: 40px;
-}
+
+
 .menu{
 	margin-top: 40px;
 	position: relative;
 	overflow: hidden;
+	margin-bottom: 40px;
 	background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e5e5e+0,5e5e5e+100,444343+100,444343+100 */
 background: rgb(94,94,94); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(94,94,94,1) 0%, rgba(94,94,94,1) 100%, rgba(68,67,67,1) 100%, rgba(68,67,67,1) 100%); /* FF3.6-15 */
@@ -48,9 +48,12 @@ background: -webkit-linear-gradient(top,  rgba(74,74,74,1) 0%,rgba(74,74,74,1) 1
 background: linear-gradient(to bottom,  rgba(74,74,74,1) 0%,rgba(74,74,74,1) 100%,rgba(32,124,202,1) 100%,rgba(47,47,47,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#2f2f2f',GradientType=0 ); /* IE6-9 */
 }
-.conteiner{
-	position: relative;
-	overflow: hidden;
+.conteiner:after{
+	content: ".";
+	display: block;
+	height: 0;
+    clear: both;
+	visibility: hidden;
 }
 .sidebar{
 	float: left;
@@ -63,11 +66,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', end
 	color: #656363;
 	text-decoration: none;
 
-.menu-sidebar a: hover{
+.menu-sidebar a:hover{
 	background: #f9f9f9;
 }
 .menu-sidebar li{
 	list-style: none;
+	border: 1 px solid c8c8c8;
 
 
 }
@@ -75,12 +79,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', end
 	float: right;
 	width: 680px
 }
-.menu-footer{
-	position: relative;
-	overflow: hidden;
-	padding: 60
-}
+	
 .menu-footer li{
 	float: left;
-	list-style-type: none;
+	list-style: none;
 }
+.menu-footer a{
+	display: block;
+	color: #e1e1e1;
+	font-size: 22px;;
+	line-height: 40px;
+	text-decoration: none;
+}
+	
