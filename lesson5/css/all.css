@@ -1,0 +1,46 @@
+.wrapper{
+	background: red;
+	height: 400px;
+}
+.wrapper: after{
+	content: ".";
+	color: transparent;
+	height: 0
+	clear:both;
+	display: block;
+
+}
+.wrapper div{
+     /*width: 30%;*/
+}
+.c2{
+	float: left;
+	background: green;
+}
+.c1{
+	background: yellow;
+	float: left;
+}
+.c3{
+	background:rbg(0,0,0,0,5);
+	position: fixed;
+	top: 100px;
+	left: 100px;
+	color: white;
+	height: 300px;
+	width: 200px;
+}
+
+
+c3{
+	background:rbg(0,0,0,0,5);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	color: white;
+	height: 300px;
+	margin-top: -150px;
+	width: 200px;
+	margin-left: -150px;
+}
+
